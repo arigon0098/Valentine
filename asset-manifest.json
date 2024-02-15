@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.372b6ab3.css",
+    "main.js": "/static/js/main.adca7e85.js",
+    "static/media/suni.png": "/static/media/suni.fb91706abb0d6773ba1f.png",
+    "static/media/gunjou.png": "/static/media/gunjou.18d34eef80870060ad55.png",
+    "static/media/kuromi-yes2.gif": "/static/media/kuromi-yes2.0fd2cda5b6676e7f0127.gif",
+    "static/media/animatedHeart.gif": "/static/media/animatedHeart.5ee20ef1b09b66de61b8.gif",
+    "static/media/balloon.png": "/static/media/balloon.ab9b72be6e06516dd41c.png",
+    "static/media/mail3.png": "/static/media/mail3.6cfc04f2a9ccc7aa0544.png",
+    "static/media/kuromi-yes.gif": "/static/media/kuromi-yes.516d91175f6edf5b4c8d.gif",
+    "index.html": "/index.html",
+    "main.372b6ab3.css.map": "/static/css/main.372b6ab3.css.map",
+    "main.adca7e85.js.map": "/static/js/main.adca7e85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.372b6ab3.css",
+    "static/js/main.adca7e85.js"
+  ]
+}
