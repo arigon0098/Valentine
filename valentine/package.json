@@ -1,7 +1,7 @@
 {
   "name": "valentine",
   "version": "0.1.0",
-  "homepage": "https://yourusername.github.io/Valentine/",
+  "homepage": "https://arijitchakma79.github.io/Valentine/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
