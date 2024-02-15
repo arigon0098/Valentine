@@ -1,0 +1,36 @@
+/* animatedHeart.css */
+
+.heart-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  animation: beat 1s infinite alternate;
+}
+
+.heart {
+  position: absolute;
+  top: 0;
+  left: 45px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}

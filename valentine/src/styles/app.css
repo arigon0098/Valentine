@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  background-color: #b996b9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.balloon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin-bottom: 20px; /* Add margin to create space between sections */
+}
+
+.balloon {
+  animation: floatAnimation 3s infinite;
+  width: 50px;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 20px 20px;
+}
+
+.kiss {
+  background-color: rgb(197, 183, 209);
+  padding: 20px;
+  border-radius: 40px/80px;
+  height: 50vh;
+  width: 95%;
+}
+
+.kissu_text{
+  font-size: 1.5em;
+  margin: 20px 20px;
+
+}
+
+@keyframes floatAnimation {
+  /* Your balloon float animation keyframes here */
+}
+
+@keyframes moveImages {
+  /* Your kiss component animation keyframes here */
+}

@@ -1,0 +1,59 @@
+/* kiss.css */
+
+.image-animation-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+}
+
+.image-wrapper1 {
+  width: 400px;
+  animation: moveImage1 2s linear infinite alternate;
+}
+
+.image-wrapper2 {
+  width: 400px;
+  animation: moveImage2 2s linear infinite alternate;
+}
+
+.image {
+  width: 80%;
+  height: auto;
+}
+
+@keyframes moveImage1 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(10%);
+  }
+  50% {
+    transform: translateX(30%);
+  }
+  75% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveImage2 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-10%);
+  }
+  50% {
+    transform: translateX(-30%);
+  }
+  75% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
